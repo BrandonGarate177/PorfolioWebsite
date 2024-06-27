@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+        /* This means that when the screen is less than 1200 pixels the shit will disappear */
+
+
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+
+}
