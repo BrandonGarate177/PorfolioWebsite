@@ -14,7 +14,7 @@ Inmportant because I want to understand what parts i move myself ya feel  */
 
 body{
     font-family: "Source Code Pro", monospace; 
-    /* background-color: rgb(216, 216, 216); */
+    background-color: rgb(256, 256, 256);
 }
 
 html{
@@ -156,3 +156,49 @@ a:hover{
 
 
 /* Now i can do the sections ya feel me  */
+
+/* Profile picture */
+
+
+
+
+.section__pic-container img{
+    width: 50%; 
+    max-width: 300px; 
+    height: auto; 
+
+    transform: translate(145px, -20px); 
+
+    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth resizing and repositioning transition */
+}
+
+.section__pic-container span {
+    transition: all 0.3s ease-in-out; /* Transition effect */
+}
+
+@media (max-width: 768px) {
+    .section__pic-container {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .section__pic-container img {
+        width: 70%; /* Adjust width for smaller screens */
+        max-width: none; /* Remove max-width constraint */
+        transform: none; /* Remove transform for mobile */
+    }
+}
+
+/* Interactive img positioning */
+@media (max-width: 480px) {
+    .section__pic-container img {
+        width: 90%;
+        transform: none; /* Reset any transforms */
+    }
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
