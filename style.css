@@ -162,43 +162,27 @@ a:hover{
 
 
 
-.section__pic-container img{
-    width: 50%; 
-    max-width: 300px; 
-    height: auto; 
-
-    transform: translate(145px, -20px); 
-
-    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth resizing and repositioning transition */
+section{
+    padding-top: 4vh;
+    height: 96vh; 
+    margin: 0, 10rem; 
+    box-sizing: border-box;
+    min-height: fit-content;
 }
 
-.section__pic-container span {
-    transition: all 0.3s ease-in-out; /* Transition effect */
+.section-container{
+    display: flex;
+
 }
 
-@media (max-width: 768px) {
-    .section__pic-container {
-        height: auto; /* Adjust height for smaller screens */
-    }
-
-    .section__pic-container img {
-        width: 70%; /* Adjust width for smaller screens */
-        max-width: none; /* Remove max-width constraint */
-        transform: none; /* Remove transform for mobile */
-    }
-}
-
-/* Interactive img positioning */
-@media (max-width: 480px) {
-    .section__pic-container img {
-        width: 90%;
-        transform: none; /* Reset any transforms */
-    }
-}
-
+/* Profile section */
 #profile{
     display: flex;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+}
+
+.section__pic-container{
+    
 }
