@@ -2,11 +2,22 @@
     #desktop-nav{
         display: none;
         /* This means that when the screen is less than 1200 pixels the shit will disappear */
-
-
     }
     #hamburger-nav{
         display: flex;
     }
 
+}
+
+@media (max-width: 768px) {
+    .section__pic-container {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .section__pic-container img {
+        width: 70%; /* Adjust width for smaller screens */
+        max-width: none; /* Remove max-width constraint */
+        padding: 0; /* Remove padding */
+    }
 }
