@@ -307,7 +307,7 @@ section{
 
 .arrow{
     position: absolute;
-    right: -5rem;
+    right: 0rem;
     bottom:2.5rem;
 }
  
@@ -330,8 +330,111 @@ section{
 }
 
 .section__pic-container{
+    display: flex;
     height: 400px; 
     width: 400px; 
     margin: auto 0; 
 }
 
+/*Experience setion*/
+#experience{
+    position:relative; 
+}
+
+.about-containers{
+    float: center; 
+    padding: 4rem;
+    gap:2rem; 
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin: auto; 
+    height:80%;
+}
+
+.details-container{
+    float: left;
+    width: 60%; /* Adjust as necessary */
+    height: fit-content;
+    padding: 1rem;
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    text-align: left;
+    overflow: auto;
+}
+
+.article-container {
+    width: 100%; /* Set a base width for all articles */
+    text-align: left;
+    margin-bottom: 1rem; /* Add spacing between articles */
+    position: relative; /* Allows vertical positioning */
+}
+
+/* Individual styles for each article */
+.article-container:nth-child(1) {
+    width:100%; /* Adjust the width for the first article */
+    top: 10px; /* Keep this one at its base position */
+}
+
+.article-container:nth-child(2) {
+    width: 100%; /* Adjust the width for the second article */
+    top: 40px; /* Move this one down by 20px */
+}
+
+.article-container:nth-child(3) {
+    width: 100%; /* Adjust the width for the third article */
+    top: 60px; /* Move this one down by 40px */
+}
+
+.image-container{
+    height: auto;
+    width:auto;
+}
+
+
+.experience-image-container{
+    width: 100%; /* Use full width available */
+    height: 100%;
+    max-width: 250px;
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    flex: right; 
+    gap: 4rem; 
+    text-align: center; /* Center the images horizontally */
+    position: relative;
+
+}
+
+.experience-pic {
+    display: inline-block;
+    position: relative;
+}
+
+/* Individual size and Y-position adjustments */
+.code-ninjas-pic {
+    width: 50%; /* Set specific size for Code Ninjas logo */
+    margin-top: 33%; /* Adjust the Y-position */
+}
+
+
+
+.learn2code-pic {
+    width: 50%; /* Different size for Learn2Code logo */
+    margin-top: 33%; /* Adjust the Y-position */
+}
+
+.san-diego-state-pic {
+    width: 50%; /* Different size for San Diego State logo */
+    margin-top: 33%; /* Adjust the Y-position */
+}
+
+
+.arrow-experience{
+    position: absolute;
+    right: 0rem;
+    bottom:10rem;
+}
+ 
