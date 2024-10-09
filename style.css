@@ -284,11 +284,7 @@ section{
     position: relative;
 }
 
-.about-containers{
-    gap:2rem; 
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
+
 
 .about-details-container{
     justify-content: center;
@@ -310,6 +306,15 @@ section{
     right: 0rem;
     bottom:2.5rem;
 }
+.about-containers{
+    /* padding-bottom: -5vh; */
+    height: 25vh;
+    gap:2rem; 
+   
+    width: 80%;
+    margin: auto; 
+}
+
  
 
 .details-container{
@@ -341,21 +346,25 @@ section{
     position:relative; 
 }
 
-.about-containers{
+.experience-containers{
+    display: flex;
+
     float: center; 
-    padding: 4rem;
+    /* padding: 4rem; */
     gap:2rem; 
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+   
     width: 80%;
     margin: auto; 
-    height:80%;
+    height:100%;
+}
+.experience-details-container{
+    padding-top: 10vh;
 }
 
 .details-container{
     float: left;
-    width: 60%; /* Adjust as necessary */
-    height: fit-content;
+    /* width: 60%;  */
+    /* height: fit-content; */
     padding: 1rem;
     background: white;
     border-radius: 2rem;
@@ -437,4 +446,50 @@ section{
     right: 0rem;
     bottom:10rem;
 }
+
+
+#projects{
+    align-items: center;
+}
  
+#contact{
+    position: relative;
+}
+
+.projects-section-pic-container{
+    padding-top: 20vh;
+    overflow: auto;
+    text-align: center;
+    /* max-width: 50%; */
+    /* height: 50%; */
+}
+
+.contact-section-container{
+    /* margin: 29.5%; */
+    margin-top:5%;
+    width: 100%;
+    height: 30%;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    flex:auto;
+    text-align: center;  
+    overflow: auto;
+    
+}
+
+
+
+.contact-section-box1 a {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    text-size-adjust: 18;
+    /* text-overflow: auto; */
+    /* color: #3498db; Change this to your desired color */
+    text-decoration: none; /* Removes the underline (optional) */
+}
+
+.contact-section-box1 a:hover {
+    color: #2980b9; /* Change color on hover (optional) */
+}
+
+

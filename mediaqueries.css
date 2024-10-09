@@ -10,9 +10,79 @@
 }
 
 @media (max-width: 768px) {
+    #profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        width: 100vw; /* Takes full width of the viewport */
+        height: 100vh; /* Takes full height of the viewport */
+        max-width: none;
+        margin: 0 auto;
+        text-align: center;
+        min-height: 100vh; /* Ensures each section takes up the full viewport height */
+        padding: 2rem 0; /* Adds space inside the section */
+        margin: 0 auto; 
+    }
+
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        width: 100vw; /* Takes full width of the viewport */
+        height: 100vh; /* Takes full height of the viewport */
+        max-width: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .profile{
+        position: relative;
+        align-content: center;
+        padding-bottom: 100vh;
+    }
+    
+    .section-container{
+        display: flex;
+        justify-content: center; /* Centers the child container horizontally */
+        align-items: center; /* Centers the child container vertically, if applicable */
+        width: 100%;
+        height: 100vh; /* Ensures it takes full height of the viewport */
+        margin: 0;
+        padding: 0;
+    }
+
+    #about{
+        
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+    }
+    .about-title{
+        padding-bottom: 30vh;
+    }
+    .about-details-container{
+        display: flex;
+        justify-content: center; /* Centers items horizontally */
+        align-items: center; /* Centers items vertically, if needed */
+        margin: 0 auto; /* Ensures it centers within its parent */
+        width: 80%; /* Adjust width as necessary to prevent overflow */
+        max-width: 1200px; 
+    }
+    .text-container{
+        padding-top: 5vh;
+    }
+
+    
+    
     .section__pic-container {
-        height: auto; /* Adjust height for smaller screens */
-        padding: 20px; /* Adjust padding for smaller screens */
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+    }
+    
+    .section__pic-container img {
+        max-width: 100%;
+        height: auto; /* Ensures the image scales within the container */
     }
 
     .section__pic-container img {
@@ -20,6 +90,75 @@
         max-width: none; /* Remove max-width constraint */
         padding: 0; /* Remove padding */
     }
+    .about-containers{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
+    #experience{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        width: 100vw; /* Takes full width of the viewport */
+        height: 100vh; /* Takes full height of the viewport */
+        max-width: none;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 10vh;
+    }
+    
+
+    .experience-details-container{
+        display: flex;
+        justify-content: center; /* Centers the child container horizontally */
+        align-items: center; /* Centers the child container vertically, if applicable */
+        width: 100%;
+        height: 100vh; /* Ensures it takes full height of the viewport */
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+
+    }
+    .about-containers{
+        display: flex;
+        justify-content: center; /* Centers items horizontally */
+        align-items: center; /* Centers items vertically, if needed */
+        margin: 0 auto; /* Ensures it centers within its parent */
+        width: 100%; /* Adjust width as necessary to prevent overflow */
+        max-width: 1200px; 
+        height: 100%;
+    }
+    .experience-containers{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .details-containr{
+        padding-top: 20%;
+        height: 300%;
+        width: 100vh;
+    }
+    
+    .image-container{
+        width:50%;
+        height:fit-content;
+        text-align: center;
+    
+    }
+
+   .projects-section-container{
+        align-content: center;
+   }
+    .projects-section-pic-container{
+        max-width: 50%;
+        text-align: center;
+
+    }
 }
+
 
 
