@@ -344,6 +344,7 @@ section{
 /*Experience setion*/
 #experience{
     position:relative; 
+    margin-bottom: 10vh;
 }
 
 .experience-containers{
@@ -448,33 +449,98 @@ section{
 }
 
 
-#projects{
+#CoverLetter{
+    position:relative;
+    justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.projects-section-container {
+    margin-top: 5vh;
+    height: 80%;
+    position: relative;
+    border-radius: 2rem;
+    /* border: 0.1rem solid rgb(53, 53, 53); */
+    width: 80%;
+    margin-left: 0; /* Move it closer to the left */
+    display: flex;
+    gap: 5rem;
+}
+
+.edcuation-section-inside{
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-bottom: 2vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;  /* Ensure items are stacked vertically */
+    justify-content: flex-start;  /* Align items to the top */
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    text-align: left;
+    padding: 1rem;  
+    width: 50%;
+    /* height: fit-content; */
+    overflow: auto;
+
+}
+.edcuation-section-inside-idek{
+    margin-top: 2vh;
+    margin-right: 4vh;
+
+    margin-bottom: 2vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;  /* Ensure items are stacked vertically */
+    justify-content: flex-start;  /* Align items to the top */
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    text-align: left;
+    padding: 1rem;  
+    width: 50%;
+    /* height: fit-content; */
+    overflow: auto;
+
+}
+.passion-project{
+    margin-top: 5vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;  /* Ensure items are stacked vertically */
+    justify-content: flex-start;  /* Align items to the top */
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    text-align: center;
+    padding: 1rem;  
+    width: 50%;
+    /* height: fit-content; */
+    overflow: auto;
 }
  
 #contact{
-    position: relative;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin-bottom: 20vh;
 }
 
-.projects-section-pic-container{
-    padding-top: 20vh;
-    overflow: auto;
-    text-align: center;
-    /* max-width: 50%; */
-    /* height: 50%; */
-}
+
 
 .contact-section-container{
     /* margin: 29.5%; */
     margin-top:5%;
-    width: 100%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     border-radius: 2rem;
     border: 0.1rem solid rgb(53, 53, 53);
-    flex:auto;
     text-align: center;  
-    overflow: auto;
-    
+    align-content: center;
 }
 
 
